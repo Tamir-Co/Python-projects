@@ -2,7 +2,7 @@ def StackCalc(inp):
     """
     This function gets a string (e.g. "9 4 2 + 7 -") and does the calculations
     as if it was a stack calculater (for the ex above: 7-(2+4)=1.)
-    This function returns the top of the stack (for the ex above: 1 because [9 1]).
+    This function returns the top of the stack (for the ex above: 1 because the stack is [9 1]).
     """
     inp = inp.split()
     leng = len(inp)
