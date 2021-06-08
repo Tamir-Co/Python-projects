@@ -30,7 +30,7 @@ def Tests_StackCalc():  # Tests for the function StackCalc
     test1 = "5 6 - 7 +" # 7+(6-5) = 8
     print("result:", StackCalc(test1), "\n")
     
-    test2 = "3 2 4 5 6 - 7 +" # 1-(7-(3+2)) = -1  # numbers 3,2,4 are ignored
+    test2 = "3 2 4 5 6 - 7 +" # 7+(6-5) = 8  # numbers 3,2,4 are ignored
     print("result:", StackCalc(test2), "\n")
     
     test3 = "2 3 + 7 - 1 -" # 1-(7-(3+2)) = -1
